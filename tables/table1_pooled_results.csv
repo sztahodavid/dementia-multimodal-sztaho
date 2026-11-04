@@ -1,0 +1,58 @@
+feature set,group,classifier,accuracy (95% CI),macro F1 (95% CI),macro AUC (95% CI),val. macro F1
+eGeMAPS (88 feat.),"acoustic, hand-crafted",SVM,"0.452 [0.372, 0.531]","0.412 [0.347, 0.477]","0.626 [0.517, 0.735]",0.465
+eGeMAPS (88 feat.),"acoustic, hand-crafted",kNN,"0.403 [0.323, 0.483]","0.364 [0.285, 0.443]","0.570 [0.488, 0.653]",0.438
+eGeMAPS (88 feat.),"acoustic, hand-crafted",RF,"0.498 [0.420, 0.576]","0.456 [0.380, 0.532]","0.658 [0.592, 0.724]",0.458
+ECAPA-TDNN,audio embedding (single model),SVM,"0.328 [0.252, 0.404]","0.297 [0.220, 0.374]","0.496 [0.392, 0.601]",0.380
+ECAPA-TDNN,audio embedding (single model),kNN,"0.365 [0.295, 0.435]","0.314 [0.248, 0.380]","0.502 [0.434, 0.570]",0.370
+ECAPA-TDNN,audio embedding (single model),RF,"0.342 [0.244, 0.441]","0.304 [0.212, 0.396]","0.504 [0.392, 0.617]",0.367
+x-vector,audio embedding (single model),SVM,"0.416 [0.330, 0.502]","0.370 [0.278, 0.462]","0.629 [0.504, 0.753]",0.476
+x-vector,audio embedding (single model),kNN,"0.440 [0.359, 0.521]","0.388 [0.318, 0.458]","0.629 [0.540, 0.718]",0.439
+x-vector,audio embedding (single model),RF,"0.464 [0.352, 0.575]","0.429 [0.317, 0.541]","0.673 [0.560, 0.786]",0.473
+wav2vec 2.0,audio embedding (single model),SVM,"0.442 [0.332, 0.552]","0.398 [0.295, 0.501]","0.614 [0.507, 0.720]",0.448
+wav2vec 2.0,audio embedding (single model),kNN,"0.422 [0.329, 0.515]","0.381 [0.291, 0.471]","0.614 [0.512, 0.715]",0.426
+wav2vec 2.0,audio embedding (single model),RF,"0.430 [0.310, 0.551]","0.398 [0.287, 0.510]","0.614 [0.500, 0.727]",0.442
+WavLM,audio embedding (single model),SVM,"0.506 [0.412, 0.600]","0.462 [0.379, 0.545]","0.684 [0.587, 0.782]",0.497
+WavLM,audio embedding (single model),kNN,"0.458 [0.379, 0.538]","0.414 [0.343, 0.485]","0.637 [0.562, 0.712]",0.489
+WavLM,audio embedding (single model),RF,"0.510 [0.430, 0.590]","0.471 [0.394, 0.548]","0.693 [0.585, 0.800]",0.484
+XLS-R,audio embedding (single model),SVM,"0.458 [0.372, 0.544]","0.434 [0.344, 0.524]","0.626 [0.534, 0.718]",0.448
+XLS-R,audio embedding (single model),kNN,"0.409 [0.358, 0.460]","0.386 [0.335, 0.438]","0.568 [0.498, 0.639]",0.425
+XLS-R,audio embedding (single model),RF,"0.421 [0.376, 0.467]","0.394 [0.340, 0.448]","0.582 [0.512, 0.652]",0.427
+Whisper,audio embedding (single model),SVM,"0.498 [0.387, 0.609]","0.474 [0.364, 0.583]","0.664 [0.557, 0.770]",0.497
+Whisper,audio embedding (single model),kNN,"0.407 [0.308, 0.506]","0.390 [0.293, 0.486]","0.577 [0.491, 0.663]",0.437
+Whisper,audio embedding (single model),RF,"0.495 [0.383, 0.608]","0.469 [0.363, 0.576]","0.657 [0.555, 0.759]",0.451
+huBERT (HU),text embedding (single model),SVM,"0.466 [0.393, 0.539]","0.434 [0.361, 0.506]","0.623 [0.535, 0.711]",0.460
+huBERT (HU),text embedding (single model),kNN,"0.419 [0.340, 0.499]","0.384 [0.306, 0.462]","0.604 [0.526, 0.682]",0.458
+huBERT (HU),text embedding (single model),RF,"0.472 [0.388, 0.556]","0.447 [0.361, 0.533]","0.653 [0.562, 0.745]",0.450
+mBERT,text embedding (single model),SVM,"0.405 [0.347, 0.463]","0.380 [0.312, 0.448]","0.528 [0.451, 0.605]",0.409
+mBERT,text embedding (single model),kNN,"0.339 [0.298, 0.379]","0.320 [0.269, 0.371]","0.519 [0.470, 0.568]",0.388
+mBERT,text embedding (single model),RF,"0.383 [0.331, 0.435]","0.364 [0.308, 0.421]","0.558 [0.504, 0.612]",0.397
+XLM-RoBERTa,text embedding (single model),SVM,"0.403 [0.345, 0.461]","0.386 [0.326, 0.446]","0.600 [0.521, 0.680]",0.447
+XLM-RoBERTa,text embedding (single model),kNN,"0.405 [0.324, 0.487]","0.380 [0.290, 0.471]","0.575 [0.491, 0.659]",0.443
+XLM-RoBERTa,text embedding (single model),RF,"0.391 [0.321, 0.461]","0.376 [0.306, 0.446]","0.593 [0.522, 0.663]",0.439
+DistilBERT,text embedding (single model),SVM,"0.374 [0.325, 0.423]","0.352 [0.303, 0.400]","0.514 [0.463, 0.565]",0.400
+DistilBERT,text embedding (single model),kNN,"0.364 [0.301, 0.427]","0.344 [0.280, 0.409]","0.546 [0.478, 0.613]",0.384
+DistilBERT,text embedding (single model),RF,"0.370 [0.300, 0.441]","0.347 [0.282, 0.413]","0.562 [0.496, 0.628]",0.383
+mT5,text embedding (single model),SVM,"0.359 [0.300, 0.418]","0.334 [0.267, 0.400]","0.508 [0.433, 0.583]",0.407
+mT5,text embedding (single model),kNN,"0.360 [0.290, 0.431]","0.342 [0.271, 0.414]","0.503 [0.435, 0.571]",0.397
+mT5,text embedding (single model),RF,"0.372 [0.290, 0.454]","0.355 [0.275, 0.434]","0.540 [0.475, 0.606]",0.386
+MiniLM,text embedding (single model),SVM,"0.443 [0.378, 0.509]","0.421 [0.350, 0.493]","0.608 [0.544, 0.671]",0.453
+MiniLM,text embedding (single model),kNN,"0.414 [0.336, 0.493]","0.395 [0.312, 0.479]","0.568 [0.500, 0.635]",0.417
+MiniLM,text embedding (single model),RF,"0.441 [0.378, 0.505]","0.420 [0.354, 0.485]","0.624 [0.569, 0.679]",0.436
+all audio embeddings,within-modality fusion (audio),SVM,"0.491 [0.353, 0.629]","0.462 [0.325, 0.600]","0.680 [0.538, 0.821]",0.472
+all audio embeddings,within-modality fusion (audio),kNN,"0.459 [0.383, 0.534]","0.432 [0.359, 0.504]","0.635 [0.542, 0.728]",0.445
+all audio embeddings,within-modality fusion (audio),RF,"0.497 [0.369, 0.625]","0.451 [0.324, 0.579]","0.674 [0.550, 0.798]",0.470
+all text embeddings,within-modality fusion (text),SVM,"0.456 [0.374, 0.538]","0.441 [0.359, 0.523]","0.656 [0.578, 0.735]",0.448
+all text embeddings,within-modality fusion (text),kNN,"0.404 [0.330, 0.479]","0.379 [0.297, 0.461]","0.579 [0.513, 0.645]",0.410
+all text embeddings,within-modality fusion (text),RF,"0.420 [0.347, 0.492]","0.404 [0.333, 0.476]","0.611 [0.525, 0.698]",0.437
+eGeMAPS + audio emb.,within-modality fusion (audio),SVM,"0.500 [0.363, 0.638]","0.463 [0.324, 0.602]","0.672 [0.534, 0.810]",0.470
+eGeMAPS + audio emb.,within-modality fusion (audio),kNN,"0.440 [0.354, 0.525]","0.401 [0.322, 0.480]","0.628 [0.528, 0.727]",0.440
+eGeMAPS + audio emb.,within-modality fusion (audio),RF,"0.498 [0.375, 0.621]","0.454 [0.330, 0.578]","0.670 [0.549, 0.791]",0.477
+eGeMAPS + text emb.,cross-modal fusion (audio+text),SVM,"0.472 [0.374, 0.569]","0.458 [0.359, 0.556]","0.665 [0.570, 0.759]",0.451
+eGeMAPS + text emb.,cross-modal fusion (audio+text),kNN,"0.427 [0.365, 0.489]","0.394 [0.330, 0.459]","0.583 [0.510, 0.657]",0.410
+eGeMAPS + text emb.,cross-modal fusion (audio+text),RF,"0.514 [0.420, 0.607]","0.481 [0.381, 0.580]","0.687 [0.596, 0.777]",0.483
+audio emb. + text emb.,cross-modal fusion (audio+text),SVM,"0.513 [0.395, 0.631]","0.483 [0.364, 0.603]","0.704 [0.579, 0.829]",0.502
+audio emb. + text emb.,cross-modal fusion (audio+text),kNN,"0.497 [0.392, 0.601]","0.466 [0.355, 0.576]","0.671 [0.558, 0.783]",0.486
+audio emb. + text emb.,cross-modal fusion (audio+text),RF,"0.486 [0.359, 0.613]","0.451 [0.325, 0.576]","0.662 [0.533, 0.792]",0.475
+eGeMAPS + audio + text,cross-modal fusion (audio+text),SVM,"0.499 [0.388, 0.609]","0.469 [0.353, 0.586]","0.691 [0.573, 0.810]",0.498
+eGeMAPS + audio + text,cross-modal fusion (audio+text),kNN,"0.514 [0.407, 0.622]","0.484 [0.370, 0.597]","0.676 [0.562, 0.791]",0.480
+eGeMAPS + audio + text,cross-modal fusion (audio+text),RF,"0.497 [0.371, 0.622]","0.459 [0.332, 0.586]","0.672 [0.549, 0.796]",0.478

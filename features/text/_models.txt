@@ -1,0 +1,10 @@
+| Model ID                             | Magyar   | Típus      | Megjegyzés                   |
+| ------------------------------------ | -------- | ---------- | ---------------------------- |
+| `SZTAKI-HLT/hubert-base-cc`          | 🇭🇺 ⭐⭐⭐ | BERT       | Magyarra specializált        |
+| `xlm-roberta-base`                   | 🇭🇺 ⭐⭐⭐ | XLM-R      | Magyar + sok más nyelv       |
+| `xlm-roberta-large`                  | 🇭🇺 ⭐⭐⭐ | XLM-R      | Jobb, de sokkal nagyobb      |
+| `bert-base-multilingual-cased`       | 🇭🇺 ⭐⭐  | mBERT      | 104 nyelv                    |
+| `distilbert-base-multilingual-cased` | 🇭🇺 ⭐⭐  | DistilBERT | Kisebb, gyorsabb             |
+| `google/mt5-small`                   | 🇭🇺 ⭐⭐  | mT5        | Multilingual encoder-decoder |
+| `google/mt5-base`                    | 🇭🇺 ⭐⭐  | mT5        | Nagyobb                      |
+| `FacebookAI/xlm-roberta-base`        | 🇭🇺 ⭐⭐⭐ | XLM-R      | Az XLM-R újabb repo-neve     |
